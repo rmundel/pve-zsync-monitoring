@@ -11,7 +11,7 @@ from socket import getfqdn
 from subprocess import call
 
 
-class zsync:
+class zsync(object):
     def __init__(self, statefile):
         self.statefile = statefile
         self.replnames = []
