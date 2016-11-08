@@ -18,10 +18,10 @@ class zsync:
         self.replnames_json = []
         self.hostname = getfqdn()
         with open(self.statefile, "r") as config:
-                try:
-                    self.replicas = json.load(config)
-                except ValueError as e:
-                    print(e)
+            try:
+                self.replicas = json.load(config)
+            except ValueError as e:
+                print(e)
         for source, names in self.replicas.items():
             for name, config in names.items():
                 repl = {}
