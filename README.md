@@ -1,3 +1,5 @@
+[![Code Health](https://landscape.io/github/firaxis/pve-zsync-monitoring/master/landscape.svg?style=flat)](https://landscape.io/github/firaxis/pve-zsync-monitoring/master)
+
 # PVE-Zsync monitoring
 
 ## Description
